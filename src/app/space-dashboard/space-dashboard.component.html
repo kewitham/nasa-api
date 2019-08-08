@@ -1,0 +1,24 @@
+
+<div class="container">
+  <div class="header">
+    <h2>
+     Nasa Space Dashboard
+    </h2>
+  </div>
+
+  <div class="row">
+    <div class="col-7" *ngFor="let w of weather; let i = index">
+      <p>  {{w.messageIssueTime}}</p>
+    <p>    {{w.messageType}}</p>
+    </div>
+    <div class="col-5">
+      
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+     
+    </div>
+  </div>
+</div>
+  
